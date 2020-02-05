@@ -1,0 +1,18 @@
+server:
+  port: 7002
+
+app:
+  hello-service:
+    host: localhost
+    port: 7001
+
+---
+spring:
+  profiles: docker
+server:
+  port: 8080
+  
+app:
+  hello-service:
+    host: hello
+    port: 8080

@@ -1,2 +1,10 @@
 
 .DS_Store
+spring-cloud-learning-multi-services-docker/hello-service/.classpath
+spring-cloud-learning-multi-services-docker/hello-service/.project
+spring-cloud-learning-multi-services-docker/hello-service-consumer/src/test/java/org/hello/service/consumer/AppTest.java
+spring-cloud-learning-multi-services-docker/hello-service/src/test/java/org/hello/service/AppTest.java
+spring-cloud-learning-multi-services-docker/src/test/java/com/spring/learning/multi/services/AppTest.java
+spring-cloud-learning-multi-services-docker/hello-service-consumer/.classpath
+spring-cloud-learning-multi-services-docker/hello-service-consumer/.project
+*.prefs

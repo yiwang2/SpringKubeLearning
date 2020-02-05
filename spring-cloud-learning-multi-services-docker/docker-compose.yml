@@ -1,0 +1,16 @@
+version: '2.1'
+
+services:
+  hello:
+    build: ./hello-service
+    mem_limit: 350m
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+
+  hello-consumer:
+    build: ./hello-service-consumer
+    mem_limit: 350m
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
