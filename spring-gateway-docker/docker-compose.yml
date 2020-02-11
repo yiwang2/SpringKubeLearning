@@ -1,0 +1,37 @@
+version: '2.1'
+
+services:
+  hello-service:
+    build: ./hello-service
+    mem_limit: 350m
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    depends_on:
+      - eureka
+    links:
+      - eureka:eureka
+  hello-service-consumer:
+    build: ./hello-service-consumer
+    mem_limit: 350m
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    depends_on:
+      - eureka
+    links:
+      - eureka:eureka
+  eureka:
+    build: ./eureka-server
+    mem_limit: 350m
+
+  gateway:
+    environment:
+      - SPRING_PROFILES_ACTIVE=docker
+    build: ./hello-service-gateway
+    mem_limit: 350m
+    ports:
+      - "8080:8080"
+    depends_on:
+      - eureka
+    links:
+      - eureka:eureka
+  

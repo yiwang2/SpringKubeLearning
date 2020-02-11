@@ -8,3 +8,11 @@ spring-cloud-learning-multi-services-docker/src/test/java/com/spring/learning/mu
 spring-cloud-learning-multi-services-docker/hello-service-consumer/.classpath
 spring-cloud-learning-multi-services-docker/hello-service-consumer/.project
 *.prefs
+spring-gateway-docker/eureka-server/.classpath
+spring-gateway-docker/eureka-server/.project
+spring-gateway-docker/hello-service-consumer/.classpath
+spring-gateway-docker/hello-service-consumer/.project
+spring-gateway-docker/hello-service-gateway/.classpath
+spring-gateway-docker/hello-service-gateway/.project
+spring-gateway-docker/hello-service/.classpath
+spring-gateway-docker/hello-service/.project
