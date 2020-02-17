@@ -1,0 +1,7 @@
+version: '2.1'
+
+services:
+  single-service:
+    build: ./
+    image: hands-on/single-service
+    mem_limit: 128m
