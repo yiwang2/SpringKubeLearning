@@ -1,0 +1,3 @@
+resources:
+- hello-service.yaml
+- hello-service-consumer.yaml

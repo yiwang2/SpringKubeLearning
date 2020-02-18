@@ -16,3 +16,7 @@ spring-gateway-docker/hello-service-gateway/.classpath
 spring-gateway-docker/hello-service-gateway/.project
 spring-gateway-docker/hello-service/.classpath
 spring-gateway-docker/hello-service/.project
+spring-multi-service-deploy-kube-fein/hello-service-consumer/.classpath
+spring-multi-service-deploy-kube-fein/hello-service-consumer/.project
+spring-multi-service-deploy-kube-fein/hello-service/.classpath
+spring-multi-service-deploy-kube-fein/hello-service/.project

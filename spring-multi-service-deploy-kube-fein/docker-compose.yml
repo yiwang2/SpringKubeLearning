@@ -1,0 +1,10 @@
+version: '2.1'
+services:
+  hello-service:
+    build: ./hello-service
+    image: hands-on/hello-service
+    mem_limit: 128m
+  hello-service-consumer:
+    build: ./hello-service-consumer
+    image: hands-on/hello-service-consumer
+    mem_limit: 128m
