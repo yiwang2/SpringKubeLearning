@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
              url = "http://hello-service:8080", fallback = HelloConsumerServiceFallback.class)
 public interface HelloConsumerService {
 
-	@GetMapping
+	@GetMapping("/hello")
 	public String getInfo();
 }

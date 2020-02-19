@@ -1,3 +1,4 @@
 resources:
 - hello-service.yaml
 - hello-service-consumer.yaml
+- hello-service-ribbon.yaml
